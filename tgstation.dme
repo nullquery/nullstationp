@@ -1619,4 +1619,10 @@
 #include "interface\interface.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "z_nullstation\code\modules\nqv8\controller.dm"
+#include "z_nullstation\code\modules\nqv8\JSON.dm"
+#include "z_nullstation\code\modules\nqv8\nqv8.dm"
+#include "z_nullstation\code\modules\virtualreality\computer.dm"
+#include "z_nullstation\code\modules\virtualreality\suit.dm"
+#include "z_nullstation\code\modules\virtualreality\virtualreality.dm"
 // END_INCLUDE
