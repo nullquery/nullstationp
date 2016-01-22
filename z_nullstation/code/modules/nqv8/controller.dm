@@ -2,4 +2,8 @@
 /datum/controller/master/calculate_gcd()
 	. = ..()
 
-	if (v8) v8.SetProcessorDelay(.);
+	// Wrapped in a try/catch block, because despite the sanity check
+	// this still triggers a runtime error.
+	try
+		if (v8) v8.SetProcessorDelay(.)
+	catch ()

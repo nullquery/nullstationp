@@ -1,0 +1,3 @@
+<ui-display title='Virtual Reality' button>
+  <textarea name="code" id="code"></textarea>
+</ui-display>
